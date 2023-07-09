@@ -14,24 +14,25 @@ Copy and paste the provided code into your Python environment, such as a Jupyter
 
 Execute the code and observe the results.
 
-Usage
-1 - The code starts by importing the required libraries, including ktrain, TensorFlow, and scikit-learn.
+**Usage**
 
-2 - It defines the categories or labels for the dataset, which are 'alt.atheism', 'soc.religion.christian', 'comp.graphics', 'sci.med', and 'rec.sport.baseball'. These categories represent different topics or domains for the text classification task.
+**1 -** The code starts by importing the required libraries, including ktrain, TensorFlow, and scikit-learn.
 
-3 - The code fetches the training and testing datasets using the 'fetch_20newsgroups' function from scikit-learn. The datasets are split into subsets and shuffled for randomness.
+**2 -** It defines the categories or labels for the dataset, which are 'alt.atheism', 'soc.religion.christian', 'comp.graphics', 'sci.med', and 'rec.sport.baseball'. These categories represent different topics or domains for the text classification task.
 
-4 - Next, the data is preprocessed. The text data is split into features (X) and labels (y) for both the training and testing datasets.
+**3 -** The code fetches the training and testing datasets using the 'fetch_20newsgroups' function from scikit-learn. The datasets are split into subsets and shuffled for randomness.
 
-5 - A machine learning model is built using the 'distilbert-base-uncased' transformer. This model is capable of understanding and classifying text.
+**4 -** Next, the data is preprocessed. The text data is split into features (X) and labels (y) for both the training and testing datasets.
 
-6 - The model is trained using the training dataset and validated using the testing dataset. The 'fit_onecycle' method is used to train the model with a one-cycle learning rate schedule.
+**5 -** A machine learning model is built using the 'distilbert-base-uncased' transformer. This model is capable of understanding and classifying text.
 
-7 - The model's performance is evaluated by viewing the top losses, which displays the samples with the highest prediction errors.
+**6 -** The model is trained using the training dataset and validated using the testing dataset. The 'fit_onecycle' method is used to train the model with a one-cycle learning rate schedule.
 
-8 - Finally, the model is used to make predictions on new text data. A specific example sentence is provided, and the model predicts the most suitable category for it.
+**7 -** The model's performance is evaluated by viewing the top losses, which displays the samples with the highest prediction errors.
 
-Contact
+**8 -** Finally, the model is used to make predictions on new text data. A specific example sentence is provided, and the model predicts the most suitable category for it.
+
+**Contact**
 For any inquiries or questions, please contact **naveenpandey2706@gmail.com.**
 
 Please don't hesitate to reach out if you have any feedback or suggestions for this project.
